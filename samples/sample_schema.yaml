@@ -1,0 +1,24 @@
+table_name: employees
+columns:
+  - name: id
+    type: integer
+    primary_key: true
+  - name: name
+    type: string
+  - name: email
+    type: email
+  - name: phone
+    type: phone
+  - name: department
+    type: string
+    values: [HR, Engineering, Finance, Marketing, Sales, Operations]
+  - name: salary
+    type: decimal
+    min: 30000
+    max: 200000
+  - name: hire_date
+    type: date
+  - name: city
+    type: city
+  - name: is_active
+    type: boolean

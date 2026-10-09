@@ -1,0 +1,6 @@
+id,name,email,phone,department,salary,hire_date,city,is_active
+1,Priya Sharma,priya.sharma@example.com,+91-9876543210,Engineering,85000.50,2021-03-15,Hyderabad,True
+2,Ravi Kumar,ravi.kumar@gmail.com,+91-8765432109,HR,45000.00,2020-07-22,Bangalore,True
+3,Anita Reddy,anita.reddy@company.com,+91-7654321098,Finance,62000.75,2019-11-10,Chennai,False
+4,Suresh Babu,suresh.babu@mail.com,+91-6543210987,Marketing,55000.25,2022-01-05,Mumbai,True
+5,Lakshmi Devi,lakshmi.devi@example.com,+91-9988776655,Sales,48000.00,2023-06-18,Pune,True
