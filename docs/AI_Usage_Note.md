@@ -55,4 +55,4 @@
 
 ---
 
-*Document prepared by Team 14 – Malla Hemanjali, Pentakota Charishma, Padala Kuladeep Satya Kishore, Madisa Thanu Sri*
+*Document prepared by Team 14 – Ponugupati Abhishek, SRIRANGAM DHANUN JAY PAUL, Padala Jogunaidu, Thalathoti Dinesh Kumar*

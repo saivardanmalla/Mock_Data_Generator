@@ -1,4 +1,12 @@
+import sys
 import streamlit as st
+
+# Automatically launch Streamlit web server if executed directly via `python app.py`
+if __name__ == "__main__" and not st.runtime.exists():
+    from streamlit.web import cli as stcli
+    sys.argv = ["streamlit", "run", sys.argv[0]] + sys.argv[1:]
+    sys.exit(stcli.main())
+
 import pandas as pd
 import yaml
 import re
@@ -90,10 +98,10 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### 🧩 Team 14")
     st.markdown("""
-    - Malla Hemanjali (CSM)
-    - Pentakota Charishma (CSE)
-    - Padala Kuladeep Satya Kishore (CSE)
-    - Madisa Thanu Sri (ECE)
+    - Ponugupati Abhishek (24609-CM-077)
+    - SRIRANGAM DHANUN JAY PAUL (24609-CM-101)
+    - Padala Jogunaidu (24609-CM-066)
+    - Thalathoti Dinesh Kumar (24609-CM-107)
     """)
 
 # ── Schema Parser (Agent Step 1) ──────────────────────────────────────────────
@@ -381,8 +389,3 @@ with col2:
         </div>
         """, unsafe_allow_html=True)
 
-if __name__ == "__main__":
-    import sys
-    from streamlit.web import cli as stcli
-    sys.argv = ["streamlit", "run", sys.argv[0]]
-    sys.exit(stcli.main())
